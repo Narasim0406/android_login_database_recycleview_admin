@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg1"
+    android:layout_height="match_parent"
+    tools:context=".ReportService">
+
+    <Button
+        android:id="@+id/buttonProgress"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:onClick="viewProgress"
+        android:text="Progress Services"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <Button
+        android:id="@+id/buttonCompleted"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:onClick="viewCompleted"
+        android:text="completed Services"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <Button
+        android:id="@+id/buttonCancelled"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:onClick="viewCancelled"
+        android:text="Cancelled Services"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+
+
+</RelativeLayout>

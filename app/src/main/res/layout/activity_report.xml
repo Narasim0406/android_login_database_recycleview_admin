@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".Report">
+
+    <Button
+        android:id="@+id/buttonProduct"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:onClick="viewProduct"
+        android:text="Sales Report"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <Button
+        android:id="@+id/buttonService"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:onClick="viewService"
+        android:text="Service Report"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+
+</RelativeLayout>
